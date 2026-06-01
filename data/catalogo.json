@@ -1,0 +1,946 @@
+{
+  "marcas": [
+    {
+      "id": "toyota",
+      "nombre": "Toyota",
+      "logo": "/logos/Toyota.png",
+      "imagen_hero": "/vehiculos/probox-2004.png",
+      "descripcion": "La marca más vendida del Japón. Stock permanente de modelos clásicos y modernos.",
+      "activo": true,
+      "modelos": [
+        {
+          "id": "probox",
+          "nombre": "Probox",
+          "chasis": "NCP51/NCP55",
+          "anio": "2002-2014",
+          "imagen": "/vehiculos/probox-2004.png",
+          "imagenes": [
+            "/vehiculos/probox-2004.png"
+          ],
+          "unidades": [
+            {
+              "id": "probox-blanco-001",
+              "color_nombre": "Blanco",
+              "color_hex": "#F5F5F5",
+              "imagenes": [
+                "/vehiculos/probox-2004.png"
+              ],
+              "nota": "Motor 1NZ, automático"
+            },
+            {
+              "id": "probox-negro-002",
+              "color_nombre": "Negro",
+              "color_hex": "#000000",
+              "imagenes": [
+                "/vehiculos/probox-negro.png"
+              ],
+              "nota": "Motor 1NZ, automático"
+            },
+            {
+              "id": "probox-negro-1780269315030",
+              "color_nombre": "negro",
+              "color_hex": "#1f1919",
+              "nota": "Motor 1NZ Con caja Mecanica",
+              "tipo_importacion": "cdk",
+              "incluye_techo": true,
+              "imagenes": [
+                "/vehiculos/toyota/probox/1780269306204-negroporbox.png"
+              ],
+              "estado_unidad": "proxima-descarga",
+              "contenedor": "ABI154875",
+              "fecha_llegada": "2026-06-12",
+              "fecha_registro": "2026-05-31T23:15:15.030Z"
+            }
+          ],
+          "variantes": [
+            {
+              "id": "probox-ncp51",
+              "label": "Probox NCP51/55 (2002–2014)",
+              "anio": "2002-2014",
+              "chasis": "NCP51/NCP55/NCP58"
+            },
+            {
+              "id": "probox-ncp160",
+              "label": "Probox NCP160 (2014–2021)",
+              "anio": "2014-2021",
+              "chasis": "NCP160V/NHP160V"
+            }
+          ],
+          "activo": true
+        },
+        {
+          "id": "bb",
+          "nombre": "BB",
+          "chasis": "NCP30/NCP31",
+          "anio": "2000-2005",
+          "imagen": "/vehiculos/toyota-bb-ncp30.png",
+          "imagenes": [
+            "/vehiculos/toyota-bb-ncp30.png"
+          ],
+          "unidades": [],
+          "variantes": [
+            {
+              "id": "bb-ncp30",
+              "label": "BB NCP30 (2000–2005)",
+              "anio": "2000-2005",
+              "chasis": "NCP30/NCP31/NCP34/NCP35"
+            },
+            {
+              "id": "bb-qnc21",
+              "label": "BB QNC21 (2005–2016)",
+              "anio": "2005-2016",
+              "chasis": "QNC21/QNC20/QNC25"
+            }
+          ],
+          "activo": true
+        },
+        {
+          "id": "belta",
+          "nombre": "Belta / Yaris",
+          "chasis": "NCP90/SCP90",
+          "anio": "2005-2012",
+          "imagen": "/vehiculos/belta-yaris.png",
+          "imagenes": [
+            "/vehiculos/belta-yaris.png"
+          ],
+          "unidades": [
+            {
+              "id": "belta-plomo-1780264231006",
+              "color_nombre": "Plomo",
+              "color_hex": "#93b9e1",
+              "nota": "Motor 2sz",
+              "tipo_importacion": "cdk",
+              "incluye_techo": true,
+              "imagenes": [
+                "/vehiculos/toyota/belta/1780264218567-beltaplomo.png",
+                "/vehiculos/toyota/belta/1780264222134-beltaplomoo.png"
+              ],
+              "estado_unidad": "proxima-descarga",
+              "contenedor": "ABI15566",
+              "fecha_llegada": "2026-06-05",
+              "fecha_registro": "2026-05-31T21:50:31.006Z",
+              "activo": true
+            }
+          ],
+          "variantes": [
+            {
+              "id": "belta-ncp90",
+              "label": "Belta/Yaris NCP90 (2005–2012)",
+              "anio": "2005-2012",
+              "chasis": "NCP90/SCP90/KSP90"
+            }
+          ],
+          "activo": true
+        },
+        {
+          "id": "caldina",
+          "nombre": "Caldina AZT",
+          "chasis": "AZT241/AZT246",
+          "anio": "2002-2007",
+          "imagen": "/vehiculos/toyota-caldina-azt246.png",
+          "imagenes": [
+            "/vehiculos/toyota-caldina-azt246.png"
+          ],
+          "unidades": [],
+          "variantes": [
+            {
+              "id": "caldina-azt241",
+              "label": "Caldina AZT241 (2002–2007)",
+              "anio": "2002-2007",
+              "chasis": "AZT241/AZT246/ST246W"
+            }
+          ],
+          "activo": true
+        },
+        {
+          "id": "carib",
+          "nombre": "Carib AE111",
+          "chasis": "AE111/AE114",
+          "anio": "1995-2002",
+          "imagen": "/vehiculos/toyota-carib-ae111.png",
+          "imagenes": [
+            "/vehiculos/toyota-carib-ae111.png"
+          ],
+          "unidades": [],
+          "variantes": [
+            {
+              "id": "carib-ae111",
+              "label": "Carib AE111 (1995–2002)",
+              "anio": "1995-2002",
+              "chasis": "AE111/AE114/CE114"
+            }
+          ],
+          "activo": true
+        },
+        {
+          "id": "ceres",
+          "nombre": "Ceres AE101",
+          "chasis": "AE101/AE104",
+          "anio": "1992-1998",
+          "imagen": "/vehiculos/toyota-ceres-ae101.png",
+          "imagenes": [
+            "/vehiculos/toyota-ceres-ae101.png"
+          ],
+          "unidades": [],
+          "variantes": [
+            {
+              "id": "ceres-ae101",
+              "label": "Ceres AE101 (1992–1998)",
+              "anio": "1992-1998",
+              "chasis": "AE101/AE104/CE104"
+            }
+          ],
+          "activo": true
+        },
+        {
+          "id": "porte",
+          "nombre": "Porte NNP11",
+          "chasis": "NNP11/NCP141",
+          "anio": "2004-2012",
+          "imagen": "/vehiculos/toyota-porte-nnp11.png",
+          "imagenes": [
+            "/vehiculos/toyota-porte-nnp11.png"
+          ],
+          "unidades": [],
+          "variantes": [
+            {
+              "id": "porte-nnp11",
+              "label": "Porte NNP11 (2004–2012)",
+              "anio": "2004-2012",
+              "chasis": "NNP11/NCP141/NCP145"
+            }
+          ],
+          "activo": true
+        },
+        {
+          "id": "succeed",
+          "nombre": "Succeed 2005",
+          "chasis": "NCP55/NCP58",
+          "anio": "2003-2014",
+          "imagen": "/vehiculos/toyota-succed-2005.png",
+          "imagenes": [
+            "/vehiculos/toyota-succed-2005.png"
+          ],
+          "unidades": [],
+          "variantes": [
+            {
+              "id": "succeed-ncp55",
+              "label": "Succeed NCP55 (2003–2014)",
+              "anio": "2003-2014",
+              "chasis": "NCP55V/NCP58G/NCP59G"
+            }
+          ],
+          "activo": true
+        }
+      ]
+    },
+    {
+      "id": "nissan",
+      "nombre": "Nissan",
+      "logo": "/logos/Nissan.png",
+      "imagen_hero": "/vehiculos/Nissan Ad van Y12.png",
+      "descripcion": "Confiabilidad japonesa con amplia disponibilidad de repuestos originales.",
+      "activo": true,
+      "modelos": [
+        {
+          "id": "ad-van",
+          "nombre": "AD Van Y12",
+          "chasis": "Y12/VY12/VJY12",
+          "anio": "2006-2016",
+          "imagen": "/vehiculos/nissan-ad-van-y12.png",
+          "activo": true
+        },
+        {
+          "id": "bluebird",
+          "nombre": "Bluebird",
+          "chasis": "U14/HU14/EU14",
+          "anio": "1996-2001",
+          "imagen": "/vehiculos/nissan-bluebird.png",
+          "activo": true
+        },
+        {
+          "id": "lafesta",
+          "nombre": "Lafesta B30",
+          "chasis": "B30/TNB30",
+          "anio": "2004-2012",
+          "imagen": "/vehiculos/nissan-lafesta-b30.png",
+          "activo": true
+        },
+        {
+          "id": "tiida",
+          "nombre": "Tiida C11",
+          "chasis": "C11/NC11/JC11",
+          "anio": "2004-2012",
+          "imagen": "/vehiculos/nissan-tiida-c11.png",
+          "activo": true,
+          "unidades": [
+            {
+              "id": "tiida-gris-claro-1780264711902",
+              "color_nombre": "Gris Claro",
+              "color_hex": "#6a8ec8",
+              "nota": "Motor HR15 Automático",
+              "tipo_importacion": "cdk",
+              "incluye_techo": true,
+              "imagenes": [
+                "/vehiculos/nissan/tiida/1780264707050-tiida-plomo.png"
+              ],
+              "estado_unidad": "proxima-descarga",
+              "contenedor": "ABI126515",
+              "fecha_llegada": "2026-06-05",
+              "fecha_registro": "2026-05-31T21:58:31.902Z"
+            }
+          ]
+        },
+        {
+          "id": "wingroad",
+          "nombre": "Wingroad Y11",
+          "chasis": "Y11/WFY11/VHNY11",
+          "anio": "1999-2005",
+          "imagen": "/vehiculos/nissan-wingroad-y11.png",
+          "activo": true
+        },
+        {
+          "id": "ad-van-y11",
+          "nombre": "Ad van y11",
+          "chasis": "",
+          "anio": "",
+          "imagen": "/vehiculos/1780190359805-y11ad-02.png",
+          "imagenes": [
+            "/vehiculos/1780190359805-y11ad-02.png"
+          ],
+          "unidades": [],
+          "activo": true,
+          "variantes": [
+            {
+              "id": "ad-van-y1125",
+              "label": "Ad Van Y1125",
+              "anio": "1999 - 2006",
+              "chasis": "Y11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mazda",
+      "nombre": "Mazda",
+      "logo": "/logos/Mazda.png",
+      "imagen_hero": "/vehiculos/axela.png",
+      "descripcion": "Diseño y tecnología SKYACTIV con piezas originales importadas.",
+      "activo": true,
+      "modelos": [
+        {
+          "id": "axela",
+          "nombre": "Axela",
+          "chasis": "BK3P/BK5P/BKEP",
+          "anio": "2003-2009",
+          "imagen": "/vehiculos/axela.png",
+          "activo": true
+        },
+        {
+          "id": "demio-2",
+          "nombre": "Demio 2",
+          "chasis": "DY3W",
+          "anio": "2000 - 2007",
+          "imagen": "/vehiculos/mazda/1780256511169-demio.png",
+          "imagenes": [
+            "/vehiculos/mazda/1780256511169-demio.png"
+          ],
+          "unidades": [
+            {
+              "id": "demio-2-rojo-1780256733364",
+              "color_nombre": "Rojo",
+              "color_hex": "#e00606",
+              "nota": "ZJ Automatico",
+              "tipo_importacion": "completo",
+              "incluye_techo": true,
+              "imagenes": [
+                "/vehiculos/mazda/demio-2/1780256692662-demio-rojo-2005.png",
+                "/vehiculos/mazda/demio-2/1780256729038-demio2.png"
+              ],
+              "estado_unidad": "disponible",
+              "contenedor": "ABI16515656",
+              "fecha_llegada": "2026-06-03",
+              "fecha_registro": "2026-05-31T19:45:33.364Z",
+              "activo": true
+            }
+          ],
+          "activo": true,
+          "variantes": [
+            {
+              "id": "demio-2-2000---2007",
+              "label": "Demio 2 (2000 - 2007)",
+              "anio": "2000 - 2007",
+              "chasis": "DY3W"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mitsubishi",
+      "nombre": "Mitsubishi",
+      "logo": "/logos/Mitsubishi.png",
+      "imagen_hero": "/vehiculos/Mitsubishi Lancer CS5A.png",
+      "descripcion": "Potencia y durabilidad en cada autoparte importada directo de Japón.",
+      "activo": true,
+      "modelos": [
+        {
+          "id": "lancer",
+          "nombre": "Lancer",
+          "chasis": "CS5A/CS5W",
+          "anio": "2003-2007",
+          "imagen": "/vehiculos/mitsubishi-lancer-cs5a.png",
+          "activo": true
+        },
+        {
+          "id": "pajero",
+          "nombre": "Pajero V73",
+          "chasis": "V73W/V75W/V78W",
+          "anio": "2000-2006",
+          "imagen": "/vehiculos/mitsubishi-pajero-v73.png",
+          "activo": true
+        }
+      ]
+    },
+    {
+      "id": "honda",
+      "nombre": "Honda",
+      "logo": "/logos/Honda.jpg",
+      "imagen_hero": "/vehiculos/honda.png",
+      "descripcion": "Innovación y precisión japonesa. Autopartes originales garantizadas.",
+      "activo": true,
+      "modelos": [
+        {
+          "id": "honda-general",
+          "nombre": "Honda General",
+          "chasis": "Varios",
+          "anio": "2000-2015",
+          "imagen": "/vehiculos/honda.png",
+          "activo": true
+        },
+        {
+          "id": "civic",
+          "nombre": "Civic",
+          "chasis": "",
+          "anio": "",
+          "imagen": "/vehiculos/1780194566614-civic.png",
+          "imagenes": [
+            "/vehiculos/1780194566614-civic.png"
+          ],
+          "unidades": [
+            {
+              "id": "civic-rojo-1780268857845",
+              "color_nombre": "Rojo",
+              "color_hex": "#e20303",
+              "nota": "D15B",
+              "tipo_importacion": "cdk",
+              "incluye_techo": false,
+              "imagenes": [
+                "/vehiculos/honda/civic/1780268845480-civi-rojo.png"
+              ],
+              "estado_unidad": "proxima-descarga",
+              "contenedor": "ABI154875",
+              "fecha_llegada": "2026-07-15",
+              "fecha_registro": "2026-05-31T23:07:37.845Z"
+            }
+          ],
+          "activo": true,
+          "variantes": [
+            {
+              "id": "honda-civic",
+              "label": "honda civic",
+              "anio": "2005-2014",
+              "chasis": "ski55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subaru",
+      "nombre": "Subaru",
+      "logo": "/logos/Subaru.png",
+      "imagen_hero": "/vehiculos/subaru.png",
+      "descripcion": "Tracción AWD y motor boxer. Piezas originales para todas las líneas.",
+      "activo": true,
+      "modelos": [
+        {
+          "id": "subaru-general",
+          "nombre": "Subaru General",
+          "chasis": "Varios",
+          "anio": "2000-2015",
+          "imagen": "/vehiculos/subaru.png",
+          "activo": true
+        }
+      ]
+    },
+    {
+      "id": "suzuki",
+      "nombre": "Suzuki",
+      "logo": "/logos/Suzuki.jpg",
+      "imagen_hero": "/vehiculos/suzuki.png",
+      "descripcion": "Eficiencia y agilidad. Autopartes livianas de alta calidad japonesa.",
+      "activo": true,
+      "modelos": [
+        {
+          "id": "suzuki-general",
+          "nombre": "Suzuki General",
+          "chasis": "Varios",
+          "anio": "2000-2015",
+          "imagen": "/vehiculos/suzuki.png",
+          "activo": true
+        }
+      ]
+    },
+    {
+      "id": "audi",
+      "nombre": "Audi",
+      "logo": "/logos/Audi.png",
+      "imagen_hero": "/vehiculos/Audi A4.png",
+      "descripcion": "Ingeniería alemana de precisión con autopartes originales importadas.",
+      "activo": true,
+      "modelos": [
+        {
+          "id": "a4",
+          "nombre": "A4",
+          "chasis": "B6/B7/B8",
+          "anio": "2001-2012",
+          "imagen": "/vehiculos/Audi A4.png",
+          "activo": true
+        }
+      ]
+    }
+  ],
+  "categorias_productos": [
+    {
+      "id": "motores",
+      "nombre": "Motores",
+      "icono": "⚙️"
+    },
+    {
+      "id": "puertas",
+      "nombre": "Puertas",
+      "icono": "🚪"
+    },
+    {
+      "id": "faros-delanteros",
+      "nombre": "Faros Delanteros",
+      "icono": "💡"
+    },
+    {
+      "id": "faros-posteriores",
+      "nombre": "Faros Posteriores",
+      "icono": "💡"
+    },
+    {
+      "id": "parachoques-delanteros",
+      "nombre": "Parachoques Delanteros",
+      "icono": "🛡️"
+    },
+    {
+      "id": "parachoques-posteriores",
+      "nombre": "Parachoques Posteriores",
+      "icono": "🛡️"
+    },
+    {
+      "id": "capots",
+      "nombre": "Capots",
+      "icono": "🔧"
+    },
+    {
+      "id": "guardafangos",
+      "nombre": "Guardafangos",
+      "icono": "🔧"
+    },
+    {
+      "id": "suspensiones",
+      "nombre": "Suspensiones",
+      "icono": "🔩"
+    },
+    {
+      "id": "cajas",
+      "nombre": "Cajas de Cambio",
+      "icono": "⚙️"
+    },
+    {
+      "id": "maleteras",
+      "nombre": "Maleteras",
+      "icono": "📦"
+    },
+    {
+      "id": "espejos-de-puertas",
+      "nombre": "Espejos de Puertas",
+      "icono": "🪞"
+    },
+    {
+      "id": "compuertas",
+      "nombre": "Compuertas",
+      "icono": "🚗"
+    },
+    {
+      "id": "tanques",
+      "nombre": "Tanques",
+      "icono": "⛽"
+    },
+    {
+      "id": "frentes-cortadas",
+      "nombre": "Frentes Cortadas",
+      "icono": "🔧"
+    },
+    {
+      "id": "aros-de-llantas",
+      "nombre": "Aros de Llantas",
+      "icono": "⭕"
+    },
+    {
+      "id": "ejes-posteriores",
+      "nombre": "Ejes Posteriores",
+      "icono": "🔩"
+    },
+    {
+      "id": "bombas-de-gasolina",
+      "nombre": "Bombas de Gasolina",
+      "icono": "⛽"
+    },
+    {
+      "id": "bomba-de-freno",
+      "nombre": "Bomba de Freno",
+      "icono": "🔴"
+    },
+    {
+      "id": "plasticos-de-guardafango",
+      "nombre": "Plásticos Guardafango",
+      "icono": "🔧"
+    },
+    {
+      "id": "tapas-de-aros",
+      "nombre": "Tapas de Aros",
+      "icono": "⭕"
+    },
+    {
+      "id": "electronica",
+      "nombre": "Electrónica",
+      "icono": "⚡"
+    },
+    {
+      "id": "bobinas",
+      "nombre": "Bobinas de Encendido",
+      "icono": "⚡"
+    },
+    {
+      "id": "inyectores",
+      "nombre": "Inyectores",
+      "icono": "💉"
+    },
+    {
+      "id": "sensores",
+      "nombre": "Sensores",
+      "icono": "📡"
+    },
+    {
+      "id": "alternadores",
+      "nombre": "Alternadores",
+      "icono": "🔋"
+    },
+    {
+      "id": "plastico-de-guardafango",
+      "nombre": "Plástico de Guardafango",
+      "icono": "📦"
+    },
+    {
+      "id": "reservorio-de-agua",
+      "nombre": "RESERVORIO DE AGUA",
+      "icono": "🛡️"
+    },
+    {
+      "id": "boma-de-agua",
+      "nombre": "BOMA DE AGUA",
+      "icono": "📡"
+    }
+  ],
+  "productos": [
+    {
+      "id": "mot-toyota-probox-1nz-at-4x2",
+      "unidad_id": null,
+      "activo": true,
+      "marca_id": "toyota",
+      "modelo_id": "probox",
+      "categoria_id": "motores",
+      "nombre": "MOTOR 1NZ CON CAJA AUTOMATICO(A/T) 4X2 1500CC GASOLINERO TOYOTA PROBOX NCP55 SERIE: 151155 SEMINUEVO",
+      "descripcion": "Motor completo importado directo de Japón. Bajo kilometraje garantizado.",
+      "detalle_condicion": "Seminuevo en excelente estado. Sin golpes ni fisuras. Compresión verificada en taller.",
+      "codigo": "1415",
+      "sku": "MOT-TOY-PRX-1NZ-AT-4X2",
+      "precio_normal": 7500,
+      "precio_oferta": 7000,
+      "oferta_hasta": "2026-06-15T23:59:59",
+      "mostrar_precio": true,
+      "estado": "disponible",
+      "imagenes": [
+        "/productos/motores/Toyota/Probox/1nz/automatico/4x2/01-1415.png",
+        "/productos/motores/Toyota/Probox/1nz/automatico/4x2/02-1415.png"
+      ],
+      "whatsapp_mensaje": "Hola, consulto por Motor 1NZ Toyota Probox Automático 4x2 (Cód: 1415)",
+      "variante_id": "probox-ncp51",
+      "chasis": "NCP55",
+      "numero_motor": "1NZ",
+      "serie_motor": "151155",
+      "codigo_computadora": "D6",
+      "tipo_caja": "automatico",
+      "traccion": "4x2",
+      "cilindrada": "1500",
+      "combustible": "gasolinero",
+      "posicion_motor": "transversal",
+      "codigo_parte": "",
+      "cantidad_unidades": 1,
+      "dua": "",
+      "proveedor": "",
+      "num_contenedor": "",
+      "codigo_barras": "",
+      "motor_encendido": true,
+      "video_youtube": "https://www.youtube.com/watch?v=oyqdRT5f9mY&list=PLz0oGrF9xX5z_GIymonqjBitY9DCHcAov&index=3",
+      "compresion": "180 psi",
+      "fecha_encendido": "2026-05-31",
+      "tecnico_taller": "jonny"
+    },
+    {
+      "id": "caj-toyota-probox-1nz-at-4x2",
+      "unidad_id": null,
+      "activo": true,
+      "marca_id": "toyota",
+      "modelo_id": "probox",
+      "categoria_id": "cajas",
+      "nombre": "Caja 1NZ - Automática 4x2",
+      "descripcion": "Caja de cambios automática, funcionamiento perfecto.",
+      "detalle_condicion": "Seminueva. Sin saltos ni ruidos. Cambios suaves verificados.",
+      "codigo": "1415",
+      "sku": "CAJ-TOY-PRX-1NZ-AT-4X2",
+      "precio_normal": 1200,
+      "precio_oferta": null,
+      "oferta_hasta": null,
+      "mostrar_precio": true,
+      "estado": "disponible",
+      "imagenes": [
+        "/productos/cajas/Toyota/Probox/1nz/automatico/4x2/01-1415.png",
+        "/productos/cajas/Toyota/Probox/1nz/automatico/4x2/02-1415.png"
+      ],
+      "whatsapp_mensaje": "Hola, consulto por Caja 1NZ Automática 4x2 Toyota Probox (Cód: 1415)"
+    },
+    {
+      "id": "aro-toyota-probox-001",
+      "unidad_id": null,
+      "activo": true,
+      "marca_id": "toyota",
+      "modelo_id": "probox",
+      "categoria_id": "aros-de-llantas",
+      "nombre": "Aro de Llanta Probox",
+      "descripcion": "Aro original Toyota Probox en buen estado.",
+      "detalle_condicion": "Seminuevo. Sin golpes significativos. Balanceo verificado.",
+      "codigo": "1415",
+      "sku": "ARO-TOY-PRX-001",
+      "precio_normal": 180,
+      "precio_oferta": null,
+      "oferta_hasta": null,
+      "mostrar_precio": true,
+      "estado": "disponible",
+      "imagenes": [
+        "/productos/aros-de-llantas/Toyota/Probox/01-1415.png"
+      ],
+      "whatsapp_mensaje": "Hola, consulto por Aro de Llanta Toyota Probox (Cód: 1415)"
+    },
+    {
+      "id": "bom-toyota-probox-001",
+      "unidad_id": null,
+      "activo": true,
+      "marca_id": "toyota",
+      "modelo_id": "probox",
+      "categoria_id": "bombas-de-gasolina",
+      "nombre": "Bomba de Gasolina Probox",
+      "descripcion": "Bomba de gasolina original, presión verificada.",
+      "detalle_condicion": "Seminueva. Sin fugas. Presión y caudal verificados.",
+      "codigo": "1415",
+      "sku": "BOM-TOY-PRX-001",
+      "precio_normal": 220,
+      "precio_oferta": 180,
+      "oferta_hasta": "2026-07-01T23:59:59",
+      "mostrar_precio": true,
+      "estado": "últimas unidades",
+      "imagenes": [
+        "/productos/bombas-de-gasolina/Toyota/Probox/01-1415.png",
+        "/productos/bombas-de-gasolina/Toyota/Probox/02-1415.png"
+      ],
+      "whatsapp_mensaje": "Hola, consulto por Bomba de Gasolina Toyota Probox (Cód: 1415)"
+    },
+    {
+      "id": "pue-del-toyota-probox-001",
+      "unidad_id": null,
+      "activo": true,
+      "marca_id": "toyota",
+      "modelo_id": "probox",
+      "categoria_id": "puertas",
+      "nombre": "Puerta Delantera Toyota Probox",
+      "descripcion": "Puerta delantera original, sin abolladuras graves.",
+      "detalle_condicion": "Seminueva. Sin golpes. Mecanismo de cierre perfecto.",
+      "codigo": "1415",
+      "sku": "PUE-DEL-TOY-PRX-001",
+      "precio_normal": 280,
+      "precio_oferta": null,
+      "oferta_hasta": null,
+      "mostrar_precio": true,
+      "estado": "disponible",
+      "imagenes": [],
+      "whatsapp_mensaje": "Hola, consulto por Puerta Delantera Toyota Probox (Cód: 1415)"
+    },
+    {
+      "id": "prod-1780181093230",
+      "activo": true,
+      "marca_id": "toyota",
+      "modelo_id": "probox",
+      "categoria_id": "compuertas",
+      "nombre": "Compuerta",
+      "descripcion": "",
+      "detalle_condicion": "sin amortiguadores",
+      "codigo": "01-1213",
+      "sku": "1400",
+      "precio_normal": 1400,
+      "precio_oferta": 1300,
+      "oferta_hasta": "2026-06-07T04:59",
+      "mostrar_precio": true,
+      "estado": "disponible",
+      "imagenes": [
+        "/productos/compuertas/Toyota/1780181008494-01-1213.png"
+      ],
+      "unidad_id": null,
+      "whatsapp_mensaje": "Hola, consulto por Compuerta (SKU: 1400)"
+    },
+    {
+      "id": "prod-1780186536109",
+      "activo": true,
+      "marca_id": "toyota",
+      "modelo_id": "probox",
+      "categoria_id": "motores",
+      "nombre": "MOTOR 1NZ CON CAJA AUTOMATICO(A/T) 4X2 1500CC GASOLINERO TOYOTA PROBOX NCP51 SERIE: 54876 SEMINUEVO",
+      "descripcion": "motor completo",
+      "detalle_condicion": "compresion 175psi",
+      "codigo": "1514",
+      "sku": "Mot",
+      "precio_normal": 7500,
+      "precio_oferta": null,
+      "oferta_hasta": null,
+      "mostrar_precio": true,
+      "estado": "disponible",
+      "imagenes": [
+        "/productos/motores/Toyota/Probox/1780186419327-02-1514.png",
+        "/productos/motores/Toyota/Probox/1780186422766-01-1514.png"
+      ],
+      "unidad_id": null,
+      "whatsapp_mensaje": "Hola, consulto por MOTOR 1NZ CON CAJA AUTOMATICO(A/T) 4X2 1500CC GASOLINERO TOYOTA PROBOX NCP51 SERIE: 54876 SEMINUEVO (SKU: Mot)",
+      "variante_id": "",
+      "chasis": "",
+      "numero_motor": "",
+      "serie_motor": "",
+      "codigo_computadora": "",
+      "tipo_caja": "",
+      "traccion": "",
+      "cilindrada": "",
+      "combustible": "gasolinero",
+      "posicion_motor": "transversal",
+      "codigo_parte": "",
+      "cantidad_unidades": 1,
+      "dua": "",
+      "proveedor": "",
+      "num_contenedor": "",
+      "codigo_barras": "",
+      "motor_encendido": true,
+      "video_youtube": "https://www.youtube.com/watch?v=pvrkfb1C4tE",
+      "compresion": "150",
+      "fecha_encendido": "2026-06-01",
+      "tecnico_taller": "jonny"
+    },
+    {
+      "id": "prod-1780257002139",
+      "activo": true,
+      "marca_id": "mazda",
+      "modelo_id": "demio-2",
+      "categoria_id": "faros-delanteros",
+      "nombre": "FARO DELANTERO DEL MAZDA DEMIO 2 2000 - 2007 CÓD: 2515-1166 SEMINUEVO",
+      "descripcion": "Par de Faros Delantero Demio",
+      "detalle_condicion": "Seminuevo lado izquierdo con detalle",
+      "codigo": "zj1515",
+      "sku": "Faro",
+      "precio_normal": 500,
+      "precio_oferta": null,
+      "oferta_hasta": null,
+      "mostrar_precio": true,
+      "estado": "disponible",
+      "imagenes": [
+        "/productos/faros-delanteros/Mazda/Demio-2/1780256970070-demio-faro.png"
+      ],
+      "unidad_id": "demio-2-rojo-1780256733364",
+      "whatsapp_mensaje": "Hola, consulto por FARO DELANTERO DEL MAZDA DEMIO 2 2000 - 2007 CÓD: 2515-1166 SEMINUEVO (SKU: Faro)"
+    },
+    {
+      "id": "prod-1780268471637",
+      "activo": true,
+      "marca_id": "nissan",
+      "modelo_id": "tiida",
+      "categoria_id": "capots",
+      "nombre": "CAPOT DEL NISSAN TIIDA C11 2004-2012 SEMINUEVO",
+      "descripcion": "Capot color Gris, detalle mínimo",
+      "detalle_condicion": "seminuevo importado de japon",
+      "codigo": "5266",
+      "sku": "Capot-tiida",
+      "precio_normal": 400,
+      "precio_oferta": null,
+      "oferta_hasta": null,
+      "mostrar_precio": true,
+      "estado": "disponible",
+      "imagenes": [
+        "/productos/capots/Nissan/Tiida/1780268461347-capot.png"
+      ],
+      "unidad_id": "tiida-gris-claro-1780264711902",
+      "whatsapp_mensaje": "Hola, consulto por CAPOT DEL NISSAN TIIDA C11 2004-2012 SEMINUEVO (SKU: Capot-tiida)"
+    },
+    {
+      "id": "prod-1780271592129",
+      "activo": true,
+      "marca_id": "nissan",
+      "modelo_id": "tiida",
+      "categoria_id": "boma-de-agua",
+      "nombre": "BOMA-DE-AGUA DEL NISSAN TIIDA C11 2004-2012 SEMINUEVO",
+      "descripcion": "BOMBA DE AGUA",
+      "detalle_condicion": "",
+      "codigo": "",
+      "sku": "",
+      "precio_normal": 150,
+      "precio_oferta": null,
+      "oferta_hasta": null,
+      "mostrar_precio": true,
+      "estado": "disponible",
+      "imagenes": [],
+      "unidad_id": "tiida-gris-claro-1780264711902",
+      "whatsapp_mensaje": "Hola, consulto por BOMA-DE-AGUA DEL NISSAN TIIDA C11 2004-2012 SEMINUEVO"
+    },
+    {
+      "id": "prod-1780278173943",
+      "activo": true,
+      "marca_id": "nissan",
+      "modelo_id": "tiida",
+      "categoria_id": "guardafangos",
+      "nombre": "GUARDAFANGO DEL NISSAN TIIDA C11 2004-2012 SEMINUEVO",
+      "descripcion": "PRUEBA STOCK",
+      "detalle_condicion": "SEMINUEVO",
+      "codigo": "154",
+      "sku": "GUAR",
+      "precio_normal": 350,
+      "precio_oferta": 300,
+      "oferta_hasta": "2026-06-04T21:42",
+      "mostrar_precio": true,
+      "estado": "disponible",
+      "imagenes": [],
+      "unidad_id": null,
+      "whatsapp_mensaje": "Hola, consulto por GUARDAFANGO DEL NISSAN TIIDA C11 2004-2012 SEMINUEVO (SKU: GUAR)"
+    }
+  ]
+}
