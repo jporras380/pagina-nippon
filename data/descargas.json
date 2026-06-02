@@ -1,0 +1,31 @@
+{
+  "contenedores": [
+    {
+      "id": "cont-1780265293621",
+      "activo": true,
+      "titulo": "Nuevo Contenedor",
+      "descripcion": "",
+      "fecha_llegada": "2026-06-30T22:08",
+      "numero_contenedor": "ABI15566",
+      "estado": "en-camino"
+    },
+    {
+      "id": "cont-1780265396540",
+      "activo": true,
+      "titulo": "Nuevo Contenedor",
+      "descripcion": "",
+      "fecha_llegada": "2026-06-30T22:09",
+      "numero_contenedor": "ABI126515",
+      "estado": "en-camino"
+    },
+    {
+      "id": "cont-1780269336501",
+      "activo": true,
+      "titulo": "prueba01",
+      "descripcion": "",
+      "fecha_llegada": "2026-07-18T23:15",
+      "numero_contenedor": "ABI154875",
+      "estado": "en-camino"
+    }
+  ]
+}

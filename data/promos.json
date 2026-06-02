@@ -1,0 +1,33 @@
+{
+  "activo": true,
+  "delay_segundos": 1,
+  "titulo_seccion": "🔥 Ofertas de la Semana",
+  "productos": [
+    {
+      "id": 1,
+      "activo": true,
+      "badge": "RECIÉN IMPORTADO",
+      "badge_color": "rojo",
+      "nombre": "Motor 1NZ Toyota Probox",
+      "descripcion": "Motor completo, bajo kilometraje. Directo de Japón.",
+      "precio": "S/ 7100",
+      "precio_antes": "S/ 750",
+      "estado": "Disponible",
+      "imagen": "/productos/motores/Toyota/Probox/1nz-at4x2.png",
+      "whatsapp_mensaje": "Hola, quiero información del Motor 1NZ Toyota Probox"
+    },
+    {
+      "id": 3,
+      "activo": true,
+      "badge": "PRÓXIMA DESCARGA",
+      "badge_color": "azul",
+      "nombre": "Motor 2NZ Toyota BB",
+      "descripcion": "En camino, reserva el tuyo ahora.",
+      "precio": "6000",
+      "precio_antes": "6500",
+      "estado": "Pre-venta",
+      "imagen": "/productos/motores/Toyota/BB/2nz-at4x2.png",
+      "whatsapp_mensaje": "Hola, quiero reservar el Motor 2NZ Toyota BB"
+    }
+  ]
+}
