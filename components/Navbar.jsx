@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { href: "/", label: "Inicio" },
   { href: "/catalogo", label: "Catálogo" },
   { href: "/proximas-descargas", label: "Próximas Descargas" },
+  { href: "/envios", label: "Envíos y Pagos" },
   { href: "/nosotros", label: "Nosotros" },
   { href: "/contacto", label: "Contacto" },
 ];
